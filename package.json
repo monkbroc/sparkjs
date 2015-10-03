@@ -1,7 +1,6 @@
 {
   "author": "Spark",
   "name": "spark",
-  "filename": "spark.min.js",
   "description": "Official Spark cloud API library.",
   "version": "1.0.0",
   "homepage": "http://spark.io",
@@ -39,13 +38,5 @@
   },
   "browser": {
     "request": "browser-request"
-  },
-  "jam": {
-    "main": "dist/spark.min.js",
-    "include": [
-      "dist/spark.min.js",
-      "README.md"
-    ],
-    "dependencies": {}
   }
 }
